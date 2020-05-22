@@ -1,0 +1,38 @@
+#overlay{
+    background-image: url("../images/pizz1.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-color: rgba(0, 0, 0, 0.1);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+  .navbar-brand{
+    margin-right: 20%;
+  }
+  .nav-item a{
+    font-size: 25px;
+  }
+  #headline-text{
+      padding-top: 200px;
+  }
+  h1 {
+    letter-spacing: 9px;
+    color: gold;
+    font-weight: bolder;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 60px;
+  }
+  h5 {
+    letter-spacing: 5px;
+    color: gold;
+    padding-top: 15px;
+  }
+  #make-order{
+    padding: 100px;
+  }
+  .order{
+    font-size: 30px;
+  }
