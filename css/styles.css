@@ -1,13 +1,12 @@
-#overlay{
+#header{
     background-image: url("../images/pizz1.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment:fixed;
+    background-attachment: fixed;
     background-color: rgba(0, 0, 0, 0.1);
     height: 100%;
     width: 100%;
-    position: absolute;
 }
   .navbar-brand{
     margin-right: 20%;
