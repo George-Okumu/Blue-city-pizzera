@@ -7,31 +7,46 @@
     background-color: rgba(0, 0, 0, 0.1);
     height: 100%;
     width: 100%;
+    position: relative;
 }
-  .navbar-brand{
+.navbar-brand{
     margin-right: 20%;
   }
-  .nav-item a{
+.nav-item a{
     font-size: 25px;
   }
-  #headline-text{
+#headline-text{
       padding-top: 200px;
   }
-  h1 {
+.brand{
     letter-spacing: 9px;
     color: gold;
     font-weight: bolder;
     font-family: "Times New Roman", Times, serif;
     font-size: 60px;
   }
-  h5 {
+h5 {
     letter-spacing: 5px;
     color: gold;
     padding-top: 15px;
-  }
-  #make-order{
+}
+#make-order{
     padding: 100px;
-  }
-  .order{
+}
+.order{
     font-size: 30px;
   }
+.text-center1{
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+  }
+  .about-image{
+    text-align: center;
+  }
+.descript{
+  background-color: gold;
+  text-align: center;
+  padding: 60px;
+}
