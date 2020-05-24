@@ -102,4 +102,24 @@ label{
 #button{
   padding-left: 70px;
   padding-top: 20px;
+  padding-bottom: 30px;
+}
+#contact-us{
+  background-color: blue;
+}
+.text-center8{
+  color: gold;
+  letter-spacing: 1px;
+}
+.form-control{
+  background-color: transparent;
+  color: white;
+}
+.form-control::-webkit-input-placeholder { 
+  color: white;
+}
+.submit{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
