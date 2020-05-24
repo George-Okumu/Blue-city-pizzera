@@ -150,10 +150,65 @@
       </div>
 
       <div id="order-now">
-        <div class="container">
-          <h1>Make an Order Now!</h1>
-        </div>
-      </div>
+        <div class="container" id="species">
+          <h1 class="text-center7">Make an Order Now!</h1>
+          <p class="text-center8">Make an order here and we will deliver it at your door!</p>
+          <div class="row">
+            <div class="col-sm-5">
+                  <label for="select">Select Your Flavor</label>
+                  <select class="custom-select custom-select-md mb-3 name" id="name">
+                    <option selected value="choose">Choose your flavor</option>
+                    <option value="Tomato Delight">Tomato Delight</option>
+                    <option value="Hawaiian">Hawaiian</option>
+                    <option value="Chicken Tikka">Chicken Tikka</option>
+                    <option value="Vegatable">Vegatable Pizza</option>
+                    <option value="Margharitta">Margharitta pizza</option>
+                    <option value="Mushroom">Mushroom pizza</option>
+                  </select>
+                <label for="select">Select Size</label>
+                <select class="browser-default custom-select custom-select-md mb-3" id="size">
+                  <option selected value="0">Choose your best size</option>
+                  <option value="large">Large @ksh. 1200</option>
+                  <option value="medium">Medium @ksh. 800</option>
+                  <option value="small">Small @ksh. 500</option>
+                </select>
+                <label for="crust">Choose your favorite Crust!</label>
+                  <select class="browser-default custom-select custom-select-md mb-3" id="crust">
+                      <option selected value="0">Choose your desired crust!</option>
+                    <option value="Crispy">Crispy @Ksh.300</option>
+                    <option value="Stuffed">Stuffed @ksh.250</option>
+                    <option value="Gluten-free">Glutten-Free @ksh280</option>
+                  </select>
+                <label for="Toppings">choose your favourite toppings<em> @ only kshs.40</em></label><br>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="tomato" value="tomato" name="toppings">
+                    <label class="custom-control-label" for="tomato">Tomato</label>
+                  </div>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="baby spinach" value="baby spinach" name="toppings">
+                    <label class="custom-control-label" for="baby spinach">Baby Spinach</label>
+                  </div>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="onions" value="onions" name="toppings">
+                    <label class="custom-control-label" for="onions">Onions</label>
+                  </div>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="pineapple" value="pineapple" name="toppings">
+                    <label class="custom-control-label" for="pineapple">Pineapple</label>
+                  </div>
+                  <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="sausage" value="sausage" name="toppings">
+                    <label class="custom-control-label" for="sausage">Sausage</label>
+                  </div>
+                  <br>
+                  <div id="button">
+                    <button type="submit" class="btn btn-warning">Make Order</button>
+                  </div>
+                </div>
+              </div>    
+            </div>    
+          </div>
+         </div>
 
       <script src="js/bootstrap.min.js"></script>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

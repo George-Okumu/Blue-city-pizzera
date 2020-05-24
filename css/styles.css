@@ -66,4 +66,40 @@ h5 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  background-attachment: fixed;
+}
+#species{
+  background-color: rgba(37, 37, 32, 0.418);
+  padding-top: 25px;
+}
+.text-center7{
+  color: gold;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 20px;
+}
+.text-center8{
+  color: gold;
+  text-align: center;
+  letter-spacing: 5px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+#name{
+  color: blue;
+}
+#size{
+  color: blue;
+}
+#crust{
+  color: blue;
+}
+label{
+  color:white;
+  font-weight: bolder;
+  font-size: medium;
+}
+#button{
+  padding-left: 70px;
+  padding-top: 20px;
 }
