@@ -111,6 +111,28 @@ label{
   color: gold;
   letter-spacing: 1px;
 }
+.text-center11{
+  color: white;
+  font-family: cursive;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 40px;
+
+}
+.text-center11 em{
+  color: gold;
+  font-weight: bold;
+}
+.text-center12{
+  color: blue;
+}
+.delivery{
+  display: none;
+  padding-top: 10px;
+}
+#order{
+  display: none;
+}
 .form-control{
   background-color: transparent;
   color: white;
