@@ -43,6 +43,12 @@ h5 {
     padding-top: 40px;
     font-weight: bolder;
   }
+  #pitzatotal{
+    display: none;
+  }
+  #pitzatotal p{
+    color: blue;
+  }
   .about-image{
     text-align: center;
   }
@@ -119,8 +125,21 @@ label{
   padding-top: 40px;
 
 }
+em{
+  color: gold;
+}
+.final{
+  color: white;
+  font-size: 20px;
+}
 .text-center11 em{
   color: gold;
+  font-weight: bold;
+}
+.text-center13{
+  display: none;
+  color: white;
+  font-size: 20px;
   font-weight: bold;
 }
 .text-center12{
