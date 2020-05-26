@@ -79,6 +79,24 @@ $(document).ready(function(){
     $("#topping").html(ptopping.join(", "));
     $("#Totals").html(total);
     
+   /* //Add pizza button
+
+    var newOrder = new Getpizza(pname, psize, pcrust,ptopping,total);
+
+    $("#addpizza").click(function(){
+      $("#your-order").show();
+      //$("#pizzatype").html($("#name option:selected").val());
+      //$("#pizzasize").html( $("#size option:selected").val());
+      //$("#pizzacrust").html($("#crust option:selected").val());
+      //$("#topping").html(ptopping.join(", "));
+      //$("#Totals").html(total);
+    });
+
+    $("#addpizza").click(function(){
+      $("#neworder").html('<tr><td id="pizzaname">'+newOrder.pizzatype +'</td><td id="pizzasize">' + newOrder.pizzasize + '</td><td id="pizzacrust">'+newOrder.pizzacrust + '</td><td id="pizzatopping">'+newOrder.topping+'</td><td id="Totals">'+newOrder.total+'</td></tr>');
+      console.log(newOrder);
+    });*/
+
     // Checkout button
     $("#checkout").click(function(){ 
       $("#pitzatotal").fadeIn(100);
@@ -88,13 +106,11 @@ $(document).ready(function(){
     $("#checkout").click(function(){ 
       $("#checkout").hide();
       $("#addPizza").hide();
-      //$(".delivery").slideDown(1000);
       $("#addedprice").slideDown(1000);
-      //console.log("Your total bills is sh. "+checkoutTotal);
-      //$("#pizzatotal").append("Your bill is sh. "+checkoutTotal);
     });
 
 
+    //delivery button
     $("#deliver").click(function(){
       event.preventDefault();
       $("#pitzatotal").hide();
@@ -104,6 +120,7 @@ $(document).ready(function(){
       $(".delivery").show();
     });
 
+    //Final submission
     $("#proceed").click(function(){
       event.preventDefault();
       $(".delivery").hide();
