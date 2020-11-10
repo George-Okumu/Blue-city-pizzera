@@ -16,7 +16,7 @@ BOOTSTRAP
 FONTAWESOME
 
 ## Link to gh-pages
-https://george-okumu.github.io/Blue-city-pizzera/
+https://george-okumu.github.io/Blue-city-pizzera/.
 
 ## Contribution
 1.Fork it!
